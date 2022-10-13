@@ -1,18 +1,18 @@
-# Bakery Shop
+# Shoe Bazar
 
-[![mylogo3f98826c1b82a39d.png](https://s4.gifyu.com/images/mylogo3f98826c1b82a39d.png)](https://gifyu.com/image/S9NkS)
+[![1.png](https://i.postimg.cc/HxXDM6HD/1.png)](https://postimg.cc/BLSV9cXM)
 
 ### Participants
 
-Github : @AniqJaved 
+Github : @rsarthak 
 
-Discord : AniqJaved#4687
+Discord : Sarthak Rajput#2257
 
 ### Description
 
-This is a bakery shop storefront powered by using NextJs combined with MedusaJs
+This is a shoe Bazar(Shoe store) storefront powered by using NextJs combined with MedusaJs
 
-### Preview
+<!-- ### Preview
 <img src="./bakeryshop.gif" alt="bakeryshop.gif" width="1000" />
 
 [![bakeryshop.gif](https://s7.gifyu.com/images/bakeryshop.gif)](https://gifyu.com/image/S9Nkf)
@@ -25,7 +25,7 @@ This is a bakery shop storefront powered by using NextJs combined with MedusaJs
 
 ![image56fd1e3d05b1bd76c.png](https://s4.gifyu.com/images/image56fd1e3d05b1bd76c.png)
 
-![image7.png](https://s7.gifyu.com/images/image7.png)
+![image7.png](https://s7.gifyu.com/images/image7.png) -->
 
 
 ## Set up Project Requirements
@@ -51,7 +51,7 @@ git clone https://github.com/AniqJaved/bakeryshop.git
 
 2. Change directory:
     ```bash
-    cd bakeryshop
+    cd Shoe Bazar
     ```
 3. Install dependencies
     ```bash

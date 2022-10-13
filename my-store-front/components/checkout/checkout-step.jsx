@@ -75,15 +75,15 @@ const CheckoutStep = () => {
     <div className={styles.container}>
       <div className={styles.steps}>
         <div className={styles.breadcrumbs}>
-          <p className={checkoutStep === 1 ? styles.activeStep : ""}>
+          <p style={{color:"white"}} className={checkoutStep === 1 ? styles.activeStep : ""}>
             Information
           </p>
           <p>/</p>
-          <p className={checkoutStep === 2 ? styles.activeStep : ""}>
+          <p style={{color:"white"}} className={checkoutStep === 2 ? styles.activeStep : ""}>
             Delivery
           </p>
           <p>/</p>
-          <p className={checkoutStep === 3 ? styles.activeStep : ""}>Payment</p>
+          <p style={{color:"white"}} className={checkoutStep === 3 ? styles.activeStep : ""}>Payment</p>
         </div>
         {checkoutStep !== 1 ? <StepOverview /> : null}
         {handleStep()}

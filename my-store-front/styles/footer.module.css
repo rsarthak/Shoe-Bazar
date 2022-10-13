@@ -19,6 +19,7 @@
   flex-direction: column;
   list-style: none;
   margin: 0rem 5rem;
+  color:white;
 }
 .listA h4 {
   margin: 0;
@@ -29,16 +30,14 @@
   padding-top: 0.8rem;
 }
 .listA span a:hover {
-  color: #56fbb1;
+  color: #e6e6e6;
 }
 .listA li {
   margin: 0;
   padding-top: 0.8rem;
 }
 
-.listA li:hover {
-  color: #56fbb1;
-}
+
 
 @media (max-width: 1090px) {
   .main {

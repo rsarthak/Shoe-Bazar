@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .container {
   padding: 0 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 .main {
@@ -16,7 +18,17 @@
 }
 
 .title {
-  font-weight: 400;
+  font-weight: bold;
+  color: rgb(13, 39, 73);
+  font-family:'Montserrat', sans-serif ;
+  margin-top:2rem;
+  background: rgb(230, 225, 225);
+ height: 6rem;
+ width: 25rem;
+ padding-top: 2.23rem;
+ text-align: center;
+ border-radius: 9px;
+ margin-bottom: 3.9rem;
 }
 
 .title_inner {
@@ -64,14 +76,14 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+ 
 }
 
 .card {
   width: 400px;
-  height: 560px;
+  height: 490px;
   margin: 2rem;
   padding: 1.5rem;
-
   color: inherit;
   background-color: #f7f6fb;
   text-align: left;
@@ -80,18 +92,23 @@
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.2s ease-in;
+  font-family: 'Montserrat', sans-serif ;
 }
 
 .card h2 {
   font-weight: 400;
+  font-family:'Montserrat', sans-serif  ;
 }
 
 .card:hover {
-  border: 2px solid #c78016;
+  -webkit-transition: .2s ease-in;
+  transform: scale(1.02);
 }
 
 .imgHolder {
   width: 100%;
   display: flex;
   justify-content: center;
+
+  border-radius: 9px;
 }

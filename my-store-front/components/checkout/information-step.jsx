@@ -32,7 +32,7 @@ const InformationStep = ({ handleSubmit, savedValues, isProcessing }) => {
 
   return (
     <div style={{ flexGrow: "1" }}>
-      <h2>Address</h2>
+      <h2 style={{color:"white"}}>Address</h2>
       <Formik
         initialValues={{
           first_name: savedValues.first_name || "",

@@ -3,6 +3,7 @@
   box-shadow: var(--shade);
   padding: 2rem 2rem;
   border-radius: 8px;
+  margin-top: 6rem;
 }
 
 .stepBack {

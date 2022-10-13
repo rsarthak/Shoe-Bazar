@@ -4,8 +4,8 @@ import { useContext } from "react";
 import { AiFillCaretDown } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
 import StoreContext from "../context/store-context";
-import MedusaLogo from "../public/mylogo.PNG";
-import BakeryBanner from "../public/banner.JPG"
+import MedusaLogo from "../public/1.png";
+import shoes from "../public/shoe.png"
 import ChocolateSplash from "../public/chocolatesplash.PNG"
 import field from "../public/fieldSvg.svg";
 import styles from "../styles/landing-page.module.css";
@@ -22,24 +22,25 @@ export default function Home({ products }) {
       <main className={styles.main}>
         <div className={styles.hero}>
           <div className={styles.title}>
-            <h1 style={{ margin: 0 }}>Bakery Shop</h1>
+            <h1 style={{ margin: 0,fontSize:"4rem" }}>Shoe Bazar</h1>
             {/* <h1 style={{ margin: 0 }}>+</h1>
             <h1 style={{ margin: 0 }}>Next.js starter</h1> */}
           </div>
           <div className={styles.links}>
-            <p>
-              Savour your taste buds with the variety of delicious looking products.
+            <p >
+              Let the feet breathe.
             </p>
           </div>
         </div>
         <div className={styles.canvas}>
-          <Image src={BakeryBanner} alt="field" layout="responsive"></Image>
+          <Image src={shoes} alt="field" 
+          width="75vw"
+          height="75vw"
+          layout="responsive"></Image>
         </div>
         <section id="storeSection" className={store.container}>
-          <h1 className={store.title}>Warning <span className={store.title_inner}>Mouth Watering</span> Content</h1>   
-          <div className={styles.canvas}>
-          <Image src={ChocolateSplash} alt="field" layout="responsive"></Image>
-        </div>
+          <h1 className={store.title}>UNCOVER THE NEXT</h1>   
+          
           <div className={store.products}>
             <div className={store.grid}>
               {products &&
@@ -57,6 +58,7 @@ export default function Home({ products }) {
                           <h2>{p.title}</h2>
                           <div className={store.imgHolder}>
                             <Image
+                            className="yu"
                               src={p.thumbnail}
                               alt="thumbnail"
                               width={300}
@@ -67,8 +69,8 @@ export default function Home({ products }) {
                           <br></br>
                           <br></br>
                           <br></br>
-                          <p>{p.description}</p>
-                          <p style={{ color: "#8a4af3" }}>
+                          <p >{p.description}</p>
+                          <p>
                             {formatPrices(cart, p.variants[0])}
                           </p>
                         </a>
@@ -100,7 +102,7 @@ export default function Home({ products }) {
           <div className={footer.listA}>
             <h4>Community</h4>
             <li>
-              <Link href="https://www.linkedin.com/in/aniq-javed/">
+              <Link href="https://www.linkedin.com/in/sarthak-rajput-6b924a15b/">
                 <a target="_blank">Linkedin</a>
               </Link>
             </li>
